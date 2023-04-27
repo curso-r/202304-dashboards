@@ -38,11 +38,10 @@ if (params$download_material == "TRUE") {
 - Nosso fórum: [https://discourse.curso-r.com/](https://discourse.curso-r.com/)
 
 - Nossos livros: 
-  - [Ciência de Dados em R](https://livro.curso-r.com/)
-  - [Zen do R](https://curso-r.github.io/zen-do-r/)
-  - [Programando em Shiny](https://programando-em-shiny.curso-r.com/)
-  - [Beautiful R](https://curso-r.github.io/beautiful-r/) (em inglês)
-
+- [Ciência de Dados em R](https://livro.curso-r.com/)
+- [Zen do R](https://curso-r.github.io/zen-do-r/)
+- [Programando em Shiny](https://programando-em-shiny.curso-r.com/)
+- [Beautiful R](https://curso-r.github.io/beautiful-r/) (em inglês)
 
 
 ## Dúvidas
@@ -56,10 +55,29 @@ Fora do horário de aula ou monitoria:
 ## Slides
 
 ```{r}
-"slides/" |>
-  fs::dir_ls(glob = "*.html", fail = FALSE) |>
-  path_to_url() |>
-  dplyr::select(Slide = url) |>
+paths <- CursoRopen:::list_github_files("main-dashboards", "slides/", "[0-9]-.*html$") |> 
+  tibble::enframe(value = "paths") |> 
+  dplyr::filter(!stringr::str_detect(paths, "figure-html")) |> 
+  dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths)) |> 
+  dplyr::select(-name)
+
+paths_pdf <- CursoRopen:::list_github_files("main-dashboards", "slides/", "[0-9]-.*pdf$") |> 
+  tibble::enframe(value = "paths_pdf") |> 
+  dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths_pdf)) |>
+  dplyr::select(-name)
+
+dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") |> 
+  dplyr::mutate(
+    slide = paths,
+    link = paste0("https://curso-r.github.io/", "main-dashboards", "/", slide),
+    slides = glue::glue("[{basename(slide)}]({link})"),
+    slide_pdf = paths_pdf,
+    link_pdf = paste0("https://curso-r.github.io/", "main-dashboards", "/", slide_pdf),
+    pdf = glue::glue("[{basename(slide_pdf)}]({link_pdf})")
+  ) |> 
+  dplyr::filter(!stringr::str_detect(slide, "_files/")) |>
+  dplyr::select(slides, pdf) |> 
+  dplyr::slice(1:2) |> 
   knitr::kable()
 ```
 

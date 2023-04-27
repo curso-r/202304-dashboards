@@ -13,10 +13,13 @@
 
 - Nossos livros:
 
-  - [Ciência de Dados em R](https://livro.curso-r.com/)
-  - [Zen do R](https://curso-r.github.io/zen-do-r/)
-  - [Programando em Shiny](https://programando-em-shiny.curso-r.com/)
-  - [Beautiful R](https://curso-r.github.io/beautiful-r/) (em inglês)
+- [Ciência de Dados em R](https://livro.curso-r.com/)
+
+- [Zen do R](https://curso-r.github.io/zen-do-r/)
+
+- [Programando em Shiny](https://programando-em-shiny.curso-r.com/)
+
+- [Beautiful R](https://curso-r.github.io/beautiful-r/) (em inglês)
 
 ## Dúvidas
 
@@ -29,8 +32,10 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide |
-|:------|
+| slides                                                                                                      | pdf                                                                                                       |
+|:------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
+| [01-introducao_ao_curso.html](https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.html) | [01-introducao_ao_curso.pdf](https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.pdf) |
+| [02-shiny-introducao.html](https://curso-r.github.io/main-dashboards/slides/02-shiny-introducao.html)       | [02-shiny-introducao.pdf](https://curso-r.github.io/main-dashboards/slides/02-shiny-introducao.pdf)       |
 
 ## Scripts utilizados em aula
 
