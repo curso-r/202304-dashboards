@@ -85,32 +85,12 @@ dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") |>
 ## Scripts utilizados em aula
 
 ```{r}
-"exemplos_de_aula/" |>
-  fs::dir_ls(fail = FALSE) |>
+"pratica/" |>
+  fs::dir_ls(fail = FALSE, regexp = "R$") |>
   path_to_url() |>
   dplyr::select(Exemplo = url) |>
   knitr::kable()
 ```
-## Práticas
-
-```{r}
-"praticas/" |>
-  fs::dir_ls(fail = FALSE) |>
-  path_to_url() |>
-  dplyr::select(Exemplo = url) |>
-  knitr::kable()
-```
-
-## Lição de casa
-
-```{r}
-"exercicios/" |>
-  fs::dir_ls(fail = FALSE) |>
-  path_to_url() |>
-  dplyr::select(Exercício = url) |>
-  knitr::kable()
-```
-
 
 ## Material extra
 
