@@ -52,14 +52,10 @@ Fora do horário de aula ou monitoria:
 | [07-disparo-reatividade.R](https://curso-r.github.io/202304-dashboards/pratica/07-disparo-reatividade.R)   |
 | [08-eventReactive.R](https://curso-r.github.io/202304-dashboards/pratica/08-eventReactive.R)               |
 | [09-debug.R](https://curso-r.github.io/202304-dashboards/pratica/09-debug.R)                               |
-
-## Material extra
-
-Referências extras relacionadas com o conteúdos das aulas, ou materiais
-que comentamos quando tiramos dúvidas (não necessariamente são
-relacionadas com o conteúdo da aula).
-
-    #> Em breve!
+| [10-dados.R](https://curso-r.github.io/202304-dashboards/pratica/10-dados.R)                               |
+| [11-tags-html.R](https://curso-r.github.io/202304-dashboards/pratica/11-tags-html.R)                       |
+| [12-gridsystem.R](https://curso-r.github.io/202304-dashboards/pratica/12-gridsystem.R)                     |
+| [13-sidebarLayout.R](https://curso-r.github.io/202304-dashboards/pratica/13-sidebarLayout.R)               |
 
 ## Redes sociais da Curso-R
 
