@@ -42,21 +42,25 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| Exemplo                                                                                                    |
-|:-----------------------------------------------------------------------------------------------------------|
-| [01-ola-mundo.R](https://curso-r.github.io/202304-dashboards/pratica/01-ola-mundo.R)                       |
-| [02-output.R](https://curso-r.github.io/202304-dashboards/pratica/02-output.R)                             |
-| [03-output-input.R](https://curso-r.github.io/202304-dashboards/pratica/03-output-input.R)                 |
-| [04-dois-inputs-outputs.R](https://curso-r.github.io/202304-dashboards/pratica/04-dois-inputs-outputs.R)   |
-| [05-amostra-sem-reactive.R](https://curso-r.github.io/202304-dashboards/pratica/05-amostra-sem-reactive.R) |
-| [06-amostra-com-reactive.R](https://curso-r.github.io/202304-dashboards/pratica/06-amostra-com-reactive.R) |
-| [07-disparo-reatividade.R](https://curso-r.github.io/202304-dashboards/pratica/07-disparo-reatividade.R)   |
-| [08-eventReactive.R](https://curso-r.github.io/202304-dashboards/pratica/08-eventReactive.R)               |
-| [09-debug.R](https://curso-r.github.io/202304-dashboards/pratica/09-debug.R)                               |
-| [10-dados.R](https://curso-r.github.io/202304-dashboards/pratica/10-dados.R)                               |
-| [11-tags-html.R](https://curso-r.github.io/202304-dashboards/pratica/11-tags-html.R)                       |
-| [12-gridsystem.R](https://curso-r.github.io/202304-dashboards/pratica/12-gridsystem.R)                     |
-| [13-sidebarLayout.R](https://curso-r.github.io/202304-dashboards/pratica/13-sidebarLayout.R)               |
+| Exemplo                                                                                                            |
+|:-------------------------------------------------------------------------------------------------------------------|
+| [01-ola-mundo.R](https://curso-r.github.io/202304-dashboards/pratica/01-ola-mundo.R)                               |
+| [02-output.R](https://curso-r.github.io/202304-dashboards/pratica/02-output.R)                                     |
+| [03-output-input.R](https://curso-r.github.io/202304-dashboards/pratica/03-output-input.R)                         |
+| [04-dois-inputs-outputs.R](https://curso-r.github.io/202304-dashboards/pratica/04-dois-inputs-outputs.R)           |
+| [05-amostra-sem-reactive.R](https://curso-r.github.io/202304-dashboards/pratica/05-amostra-sem-reactive.R)         |
+| [06-amostra-com-reactive.R](https://curso-r.github.io/202304-dashboards/pratica/06-amostra-com-reactive.R)         |
+| [07-disparo-reatividade.R](https://curso-r.github.io/202304-dashboards/pratica/07-disparo-reatividade.R)           |
+| [08-eventReactive.R](https://curso-r.github.io/202304-dashboards/pratica/08-eventReactive.R)                       |
+| [09-debug.R](https://curso-r.github.io/202304-dashboards/pratica/09-debug.R)                                       |
+| [10-dados.R](https://curso-r.github.io/202304-dashboards/pratica/10-dados.R)                                       |
+| [11-tags-html.R](https://curso-r.github.io/202304-dashboards/pratica/11-tags-html.R)                               |
+| [12-gridsystem.R](https://curso-r.github.io/202304-dashboards/pratica/12-gridsystem.R)                             |
+| [13-sidebarLayout.R](https://curso-r.github.io/202304-dashboards/pratica/13-sidebarLayout.R)                       |
+| [14-navbarPage.R](https://curso-r.github.io/202304-dashboards/pratica/14-navbarPage.R)                             |
+| [15-shinydashboard-layout.R](https://curso-r.github.io/202304-dashboards/pratica/15-shinydashboard-layout.R)       |
+| [16-shinydashboard-menu.R](https://curso-r.github.io/202304-dashboards/pratica/16-shinydashboard-menu.R)           |
+| [17-shinydashboard-elementos.R](https://curso-r.github.io/202304-dashboards/pratica/17-shinydashboard-elementos.R) |
 
 ## Redes sociais da Curso-R
 
