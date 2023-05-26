@@ -61,6 +61,11 @@ Fora do horário de aula ou monitoria:
 | [15-shinydashboard-layout.R](https://curso-r.github.io/202304-dashboards/pratica/15-shinydashboard-layout.R)       |
 | [16-shinydashboard-menu.R](https://curso-r.github.io/202304-dashboards/pratica/16-shinydashboard-menu.R)           |
 | [17-shinydashboard-elementos.R](https://curso-r.github.io/202304-dashboards/pratica/17-shinydashboard-elementos.R) |
+| [18-bs4Dash.R](https://curso-r.github.io/202304-dashboards/pratica/18-bs4Dash.R)                                   |
+| [19-observers.R](https://curso-r.github.io/202304-dashboards/pratica/19-observers.R)                               |
+| [20-observeEvent.R](https://curso-r.github.io/202304-dashboards/pratica/20-observeEvent.R)                         |
+| [21-reactvalues.R](https://curso-r.github.io/202304-dashboards/pratica/21-reactvalues.R)                           |
+| [extra-conditional-panel.R](https://curso-r.github.io/202304-dashboards/pratica/extra-conditional-panel.R)         |
 
 ## Redes sociais da Curso-R
 
