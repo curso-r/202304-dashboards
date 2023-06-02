@@ -66,6 +66,7 @@ Fora do horário de aula ou monitoria:
 | [19-observers.R](https://curso-r.github.io/202304-dashboards/pratica/19-observers.R)                               |
 | [20-observeEvent.R](https://curso-r.github.io/202304-dashboards/pratica/20-observeEvent.R)                         |
 | [21-reactvalues.R](https://curso-r.github.io/202304-dashboards/pratica/21-reactvalues.R)                           |
+| [22-htmlwidgets.R](https://curso-r.github.io/202304-dashboards/pratica/22-htmlwidgets.R)                           |
 | [extra-conditional-panel.R](https://curso-r.github.io/202304-dashboards/pratica/extra-conditional-panel.R)         |
 
 ## Redes sociais da Curso-R
